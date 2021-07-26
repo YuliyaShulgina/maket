@@ -1,0 +1,70 @@
+/*----------media-screen---------*/
+
+/*ширина окна  1000-1200px*/
+ 
+@media (min-width: 1000px) and (max-width: 1200px) {
+ 
+	body {
+	    margin: 0;
+	    padding: 0;
+	    height: 100%;
+	  }
+	 
+	div {
+		margin: 0;
+		padding: 0;
+	}
+
+	img, .div_image, #photogalerry, #left_img {
+		width: 75%;
+		height: 75%;
+
+	}
+
+	.wrapper_logo, .header, .header_blocks,
+	.header_items, .menu, .wrapper, .banner,
+	.category, .features {
+		margin: 0;
+		padding: 0;
+	    width: 1200px;
+	    height: 100%;
+	    display: inline-flex;
+	  }
+
+	.photos {
+		margin: 0;
+		padding: 0;
+		width: 1000px;
+		display: inline-flex;
+		flex-direction: column;
+	}
+
+	#b1, #b2, #b3, #b4, #b5 {
+		display: inline-flex;
+		flex-direction: column;
+		background-size: cover;
+		margin: 20px 0 0 0;
+		padding: 20px 0 20px 0;
+		width: 1200px;
+	    height: 100%;
+	}
+
+	.strong_black, .img_content_black,
+	.strong, .img_content {
+		display: inline-flex;
+		flex-direction: column;
+		width: 1200px;
+		padding: 10px;
+	}
+
+	/*.footer, .footer_ul, 
+	.footer_nav, .footer_logo {
+		display: inline-flex;
+		flex-direction: column;
+		margin: 0;
+		padding: 10px;
+	    width: 700px;
+	    height: 100%;
+	  }*/
+ 
+}
