@@ -8,11 +8,15 @@ html, body {
     font-style: normal;
 }
 
-.wrapper {
+.header {
+	display: flex;
+	width: 100%;
+}
+
+.wrapper, #footer {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-	width: 100%;
+	align-items: flex-start;
 	margin: 0 auto;
 	justify-content: space-between;
 }
@@ -24,7 +28,7 @@ html, body {
 	flex-direction: row;
 	align-items: center;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .header .wrapper_logo  {
@@ -37,7 +41,9 @@ html, body {
 .header_blocks {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	width: 100%;
+	justify-content: space-around;
+	padding: 5em;
 }
 
 .header_items {
@@ -92,6 +98,10 @@ html, body {
 	font-size: 24px;
 	padding-left: 150px;
 	padding-bottom: 35px;
+}
+
+.content_block {
+	width: auto;
 }
 
 .banner .wrapper h1{
@@ -254,7 +264,7 @@ html, body {
 
 /*----------images---------*/
 
-#b1, #b2, #b3, #b4, #b5 {
+.galerry {
 	height: 311px;
 	display: inline-block;	
 	margin: 20px;
