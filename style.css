@@ -58,7 +58,7 @@ html, body {
 	height:32px;
 }
 
-.header_items h2 {
+.header_items h1 {
 	display: flex;
 	color: black;
 }
@@ -104,13 +104,17 @@ html, body {
 	width: auto;
 }
 
-.banner .wrapper h1{
+.banner .wrapper h2{
 	font-weight: 900;
 	font-size: 48px;
 	line-height: 56px;
 	display: flex;
 	align-items: center;
 	padding-left: 150px;
+}
+
+.wrapper .category_block h2 {
+	text-align: center;
 }
 
 .banner .wrapper a{
@@ -154,7 +158,7 @@ html, body {
 	padding-right: 190px;
 }
 
-.category  .wrapper h1{
+.category  .wrapper h2{
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 47px;

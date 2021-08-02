@@ -1,0 +1,15 @@
+@media (min-width: 961px) and (max-width: 1440px) {
+
+	.body, .header, .content, .wrapper, .footer {
+	width: 1440px;
+	}
+
+	.footer_nav {
+	padding-left: 0px;
+	}
+
+	.wrapper, #footer {
+    justify-content: space-around;
+	}
+
+}
