@@ -5,11 +5,11 @@
 @media (min-width: 721px) and (max-width: 960px) {
  
 	.body, .header, .content, .wrapper, .footer {
-		width: 1200px;
+		width: 960px;
 	}
 
 	.banner .wrapper {
-    width: 1200px;
+    width: 960px;
     height: 480px;
     margin-bottom: 30px;
 	}
@@ -27,7 +27,7 @@
 	}
 
 	.category .wrapper {
-    width: 1200px;
+    width: 960px;
     height: 480px;
     margin-bottom: 30px;
 	}
@@ -43,7 +43,7 @@
 	}
 
 	.features .wrapper {
-    width: 1200px;
+    width: 960px;
     margin-bottom: 30px;
 	}
 
@@ -56,15 +56,40 @@
 
 	#photogalerry {
     display: flex;
-    width: 640px;
+    width: 560px;
     height: 480px;
+	}
+
+	#h2 {
+		font-size: 36px;
+	}
+
+	#p {
+		font-size: 18px;
+		padding-right: 20px !important;
+	}
+
+	#h2_2 {
+    font-weight: bold;
+    font-size: 30px;
+	}
+
+	.category_p {
+    font-size: 15px;
+    padding-right: 0px !important;
 	}
 
 	#left_img {
     display: flex;
-    width: 570px;
+    width: 540px;
     height: 480px;
 	}
+
+	.photos{
+	display: flex;	
+	justify-content: space-between;
+	width:960px;
+}
 
 	.footer_nav {
 	padding-left: 0px;
